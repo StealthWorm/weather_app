@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 type Props = {
   title: string;
-  data: string;
+  data: number;
 }
 
 export default function InfoWeather({ title, data }: Props) {

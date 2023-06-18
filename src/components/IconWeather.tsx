@@ -1,4 +1,4 @@
-import { CloudMoon, CloudLightning, CloudRain, CloudSun, Cloud, MoonStars, CloudFog, CloudSnow, Snowflake, Sun, Wind, Drop } from "phosphor-react"
+import { CloudMoon, CloudLightning, CloudRain, CloudSun, Cloud, MoonStars, CloudFog, CloudSnow, Snowflake, Sun } from "phosphor-react"
 
 type Props = {
   iconCode: number;

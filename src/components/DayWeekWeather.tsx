@@ -9,8 +9,6 @@ type Props = {
 export default function DayWeekWeather({ dayInfo }: Props) {
   const today = new Intl.DateTimeFormat(undefined, { weekday: "long" }).format(new Date())
   const weekDay = new Intl.DateTimeFormat(undefined, { weekday: "long" }).format(dayInfo.timeStamp)
-  // const hourSunriseDay = new Intl.DateTimeFormat(undefined, { hour: "numeric", minute: "numeric" }).format(dayInfo.sunriseTime)
-  // const hourSunsetDay = new Intl.DateTimeFormat(undefined, { hour: "numeric", minute: "numeric" }).format(dayInfo.sunsetTime)
 
   return (
     <motion.div
@@ -25,11 +23,6 @@ export default function DayWeekWeather({ dayInfo }: Props) {
       <div className="flex font-RajdhaniMedium text-center pl-3 bg-transparent relative">
         <div className="bg-transparent">{dayInfo.maxTemp}</div>
         <span className="font-RajdhaniMedium text-center bg-transparent">°</span>
-
-        {/* <div className="flex flex-col space-y-2 absolute bg-transparent w-full h-full top-0 left-[4rem]">
-          <p className="tracking-[8px] text-slate-50 font-RajdhaniBold text-[8px] bg-transparent">{hourSunriseDay}</p>
-          <p className="tracking-[8px] text-slate-50 font-RajdhaniBold text-[8px] bg-transparent">{hourSunsetDay}</p>
-        </div> */}
       </div>
     </motion.div>
   )
