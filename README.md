@@ -23,7 +23,7 @@ O Weather APP é um aplicativo simples e responsivo destinado ao consumo e entre
   - Open-meteo API
 
 ## 🟣 Execução
-    1 - Navegue até a pasta "frontend":
+    1 - Navegue até a pasta principal:
     2 - Instale as dependências do projeto com npm ou yarn ou algum outro gerenciador de pacotes:
     3 - execute o comando de inicialização de acordo com o gerenciador escolhido
     4 - acesse a URL gerada
