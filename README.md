@@ -17,10 +17,10 @@ O Weather APP é um aplicativo simples e responsivo destinado ao consumo e entre
 - Lista das previsões ao longo do dia, separadas por horário.
 
 ## 🟣 Tecnologias
-  React
-  Tailwind CSS
-  Typescript
-  Open-meteo API
+  - React
+  - Tailwind CSS
+  - Typescript
+  - Open-meteo API
 
 ## 🟣 Execução
     1 - Navegue até a pasta "frontend":
